@@ -1,14 +1,17 @@
 {
-  "homepage": "https://main.dkohyh1pk587w.amplifyapp.com/#/",
+  "homepage": "react_demo",
   "name": "portaldemo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/charts": "^1.3.6",
+    "@ant-design/icons": "^4.6.0",
     "@babel/polyfill": "^7.10.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.18.7",
+    "lodash": "^4.17.20",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-flow-renderer": "^10.3.6",
