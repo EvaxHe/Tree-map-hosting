@@ -1,0 +1,1241 @@
+[
+    {
+        "level": 1,
+        "label": "Vehicle Reset",
+        "id": "0",
+        "x": 100,
+        "y": 1
+    },
+    {
+        "level": 2,
+        "label": "User Story",
+        "id": "1",
+        "x": 181,
+        "y": 200
+    },
+    {
+        "level": 3,
+        "label": "As a fleet admin, I want to be able to remotely perform a vehicle reset a targeted vehicle so that I can attempt to resolve a failure after determining a reset is necessary.",
+        "id": "2",
+        "x": 361,
+        "y": 1
+    },
+    {
+        "level": 3,
+        "label": "As a fleet admin, I want to be able to remotely perform an infotainment reset on a targeted vehicle so that I can attempt to resolve a failure after determining a reset is necessary.",
+        "id": "3",
+        "x": 361,
+        "y": 101
+    },
+    {
+        "level": 3,
+        "label": "As a fleet admin, I want to view the status of a vehicle reset I sent to a targeted vehicle, so that I can determine if it resolved the failure.",
+        "id": "4",
+        "x": 361,
+        "y": 201
+    },
+    {
+        "level": 3,
+        "label": "As a fleet admin, I want to view the status of an infotainment reset I sent to a targeted vehicle, so that I can determine if it resolved the failure.",
+        "id": "5",
+        "x": 361,
+        "y": 301
+    },
+    {
+        "level": 3,
+        "label": "As a user, I want to see the progress while the vehicle is resetting.",
+        "id": "6",
+        "x": 361,
+        "y": 401
+    },
+    {
+        "level": 3,
+        "label": "As a user, I would like to know that a vehicle reset was completed.",
+        "id": "7",
+        "x": 361,
+        "y": 501
+    },
+    {
+        "level": 3,
+        "label": "As a user, I would like to know that an infotainment reset was completed.",
+        "id": "8",
+        "x": 361,
+        "y": 601
+    },
+    {
+        "level": 3,
+        "label": "As a user, I would like to receive positive feedback while pressing the physical buttons to initiate infotainment reset.",
+        "id": "9",
+        "x": 361,
+        "y": 701
+    },
+    {
+        "level": 3,
+        "label": "As a user, I would like to receive positive feedback while pressing the physical buttons to initiate vehicle reset.",
+        "id": "10",
+        "x": 361,
+        "y": 801
+    },
+    {
+        "level": 3,
+        "label": "As a user, I would like to reset the entire vehicle via physical buttons.",
+        "id": "11",
+        "x": 361,
+        "y": 901
+    },
+    {
+        "level": 3,
+        "label": "As a user, I would like to reset the infotainment system via physical buttons.",
+        "id": "12",
+        "x": 361,
+        "y": 1001
+    },
+    {
+        "level": 3,
+        "label": "As a user, I would like to reset the vehicle via soft button.",
+        "id": "13",
+        "x": 361,
+        "y": 1101
+    },
+    {
+        "level": 4,
+        "label": "Feature-level Functional Requirement",
+        "id": "14",
+        "x": 541,
+        "y": 1
+    },
+    {
+        "level": 4,
+        "label": "Software Test Case - Vehicle",
+        "id": "15",
+        "x": 541,
+        "y": 101
+    },
+    {
+        "level": 4,
+        "label": "None",
+        "id": "16",
+        "x": 541,
+        "y": 201
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Process",
+        "id": "17",
+        "x": 721,
+        "y": 1
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Request from Cloud",
+        "id": "18",
+        "x": 721,
+        "y": 101
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Process",
+        "id": "19",
+        "x": 721,
+        "y": 201
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Request from Cloud",
+        "id": "20",
+        "x": 721,
+        "y": 301
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Cloud Data",
+        "id": "21",
+        "x": 721,
+        "y": 401
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Cloud Result Report",
+        "id": "22",
+        "x": 721,
+        "y": 501
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Cloud Status Report",
+        "id": "23",
+        "x": 721,
+        "y": 601
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Cloud Data",
+        "id": "24",
+        "x": 721,
+        "y": 701
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Cloud Result Report",
+        "id": "25",
+        "x": 721,
+        "y": 801
+    },
+    {
+        "level": 5,
+        "label": "Display Vehicle Reset Status",
+        "id": "26",
+        "x": 721,
+        "y": 901
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset In-Vehicle Status Report",
+        "id": "27",
+        "x": 721,
+        "y": 1001
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Progress Message",
+        "id": "28",
+        "x": 721,
+        "y": 1101
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset in Nominal Conditions",
+        "id": "29",
+        "x": 721,
+        "y": 1201
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset In-Vehicle Completion Message",
+        "id": "30",
+        "x": 721,
+        "y": 1301
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset In-Vehicle Completion Message",
+        "id": "31",
+        "x": 721,
+        "y": 1401
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Countdown Notification",
+        "id": "32",
+        "x": 721,
+        "y": 1501
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Countdown Signal",
+        "id": "33",
+        "x": 721,
+        "y": 1601
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Physical Button Acknowledgement",
+        "id": "34",
+        "x": 721,
+        "y": 1701
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset in Nominal Conditions",
+        "id": "35",
+        "x": 721,
+        "y": 1801
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Countdown Notification",
+        "id": "36",
+        "x": 721,
+        "y": 1901
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Countdown Signal",
+        "id": "37",
+        "x": 721,
+        "y": 2001
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Physical Button Press Acknowledgement",
+        "id": "38",
+        "x": 721,
+        "y": 2101
+    },
+    {
+        "level": 5,
+        "label": "Discontinue HV Charging During Vehicle Reset",
+        "id": "39",
+        "x": 721,
+        "y": 2201
+    },
+    {
+        "level": 5,
+        "label": "HV Disconnect Request",
+        "id": "40",
+        "x": 721,
+        "y": 2301
+    },
+    {
+        "level": 5,
+        "label": "Perform Vehicle Reset ",
+        "id": "41",
+        "x": 721,
+        "y": 2401
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Physical Button Press Qualification",
+        "id": "42",
+        "x": 721,
+        "y": 2501
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset Request Message",
+        "id": "43",
+        "x": 721,
+        "y": 2601
+    },
+    {
+        "level": 5,
+        "label": "Vehicle Reset User Intent",
+        "id": "44",
+        "x": 721,
+        "y": 2701
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Physical Button Qualification",
+        "id": "45",
+        "x": 721,
+        "y": 2801
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset Request Message",
+        "id": "46",
+        "x": 721,
+        "y": 2901
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset User Intent",
+        "id": "47",
+        "x": 721,
+        "y": 3001
+    },
+    {
+        "level": 5,
+        "label": "Perform Infotainment Reset",
+        "id": "48",
+        "x": 721,
+        "y": 3101
+    },
+    {
+        "level": 5,
+        "label": "Infotainment Reset on Failover Network",
+        "id": "49",
+        "x": 721,
+        "y": 3201
+    },
+    {
+        "level": 5,
+        "label": "None",
+        "id": "50",
+        "x": 721,
+        "y": 3301
+    },
+    {
+        "level": 6,
+        "label": "Document Item",
+        "id": "51",
+        "x": 901,
+        "y": 1
+    },
+    {
+        "level": 6,
+        "label": "Feature-level Functional Requirement",
+        "id": "52",
+        "x": 901,
+        "y": 101
+    },
+    {
+        "level": 6,
+        "label": "Requirement [incl FuSa]",
+        "id": "53",
+        "x": 901,
+        "y": 201
+    },
+    {
+        "level": 6,
+        "label": "Software Test Case - Vehicle",
+        "id": "54",
+        "x": 901,
+        "y": 301
+    },
+    {
+        "level": 6,
+        "label": "Verification - HIL",
+        "id": "55",
+        "x": 901,
+        "y": 401
+    },
+    {
+        "level": 6,
+        "label": "None",
+        "id": "56",
+        "x": 901,
+        "y": 501
+    },
+    {
+        "level": 7,
+        "label": "Diagnostic and Communication Management Functional Unit",
+        "id": "57",
+        "x": 1081,
+        "y": 1
+    },
+    {
+        "level": 7,
+        "label": "ECU Reset",
+        "id": "58",
+        "x": 1081,
+        "y": 101
+    },
+    {
+        "level": 7,
+        "label": "Remote Activation of Routine Functional Unit",
+        "id": "59",
+        "x": 1081,
+        "y": 201
+    },
+    {
+        "level": 7,
+        "label": "Tester Present (0x3E)",
+        "id": "60",
+        "x": 1081,
+        "y": 301
+    },
+    {
+        "level": 7,
+        "label": "Filter Faults and Notifications",
+        "id": "61",
+        "x": 1081,
+        "y": 401
+    },
+    {
+        "level": 7,
+        "label": "Inhibit Gear Change",
+        "id": "62",
+        "x": 1081,
+        "y": 501
+    },
+    {
+        "level": 7,
+        "label": "BCS Aborts Enabling Condition Check for HV Mode Down",
+        "id": "63",
+        "x": 1081,
+        "y": 601
+    },
+    {
+        "level": 7,
+        "label": "BCS Aborts Mode Lockdown ",
+        "id": "64",
+        "x": 1081,
+        "y": 701
+    },
+    {
+        "level": 7,
+        "label": "BCS Activates Mode Lockdown upon Completion of Vehicle Reset HV Disconnect",
+        "id": "65",
+        "x": 1081,
+        "y": 801
+    },
+    {
+        "level": 7,
+        "label": "BCS Confirms Completion of HV Disconnect Routine",
+        "id": "66",
+        "x": 1081,
+        "y": 901
+    },
+    {
+        "level": 7,
+        "label": "BCS Enters HV Deactivation Sequence during HV Disconnect Routine",
+        "id": "67",
+        "x": 1081,
+        "y": 1001
+    },
+    {
+        "level": 7,
+        "label": "BCS HV Disconnect Routine - Vehicle ECU Reset",
+        "id": "68",
+        "x": 1081,
+        "y": 1101
+    },
+    {
+        "level": 7,
+        "label": "BCS Initiates HV Disconnect Routine Pre-condition Check",
+        "id": "69",
+        "x": 1081,
+        "y": 1201
+    },
+    {
+        "level": 7,
+        "label": "BCS Starts HV Disconnect Routine Function",
+        "id": "70",
+        "x": 1081,
+        "y": 1301
+    },
+    {
+        "level": 7,
+        "label": "BCS Terminates HV Disconnect Routine",
+        "id": "71",
+        "x": 1081,
+        "y": 1401
+    },
+    {
+        "level": 7,
+        "label": "Determine EPAS Passive State",
+        "id": "72",
+        "x": 1081,
+        "y": 1501
+    },
+    {
+        "level": 7,
+        "label": "Inhibit Park Exit, Vehicle Reset In Progress",
+        "id": "73",
+        "x": 1081,
+        "y": 1601
+    },
+    {
+        "level": 7,
+        "label": "Reset Vehicle Reset In Progress Timer",
+        "id": "74",
+        "x": 1081,
+        "y": 1701
+    },
+    {
+        "level": 7,
+        "label": "Start Vehicle Reset In Progress Timer",
+        "id": "75",
+        "x": 1081,
+        "y": 1801
+    },
+    {
+        "level": 7,
+        "label": "Vehicle Reset Cycle Test",
+        "id": "76",
+        "x": 1081,
+        "y": 1901
+    },
+    {
+        "level": 7,
+        "label": "Vehicle Reset in Nominal Conditions",
+        "id": "77",
+        "x": 1081,
+        "y": 2001
+    },
+    {
+        "level": 7,
+        "label": "Vehicle Reset with AC Charger Connected",
+        "id": "78",
+        "x": 1081,
+        "y": 2101
+    },
+    {
+        "level": 7,
+        "label": "Vehicle Reset with DC Charger Connected",
+        "id": "79",
+        "x": 1081,
+        "y": 2201
+    },
+    {
+        "level": 7,
+        "label": "TC_13004_Performing_reset_in_Drive",
+        "id": "80",
+        "x": 1081,
+        "y": 2301
+    },
+    {
+        "level": 7,
+        "label": "TC_13005_Verify_vehicle_reset_is_performed_in_nominal_conditions",
+        "id": "81",
+        "x": 1081,
+        "y": 2401
+    },
+    {
+        "level": 7,
+        "label": "None",
+        "id": "82",
+        "x": 1081,
+        "y": 2501
+    },
+    {
+        "level": 7,
+        "label": "Infotainment Reset in Nominal Conditions",
+        "id": "83",
+        "x": 1081,
+        "y": 2601
+    },
+    {
+        "level": 7,
+        "label": "Infotainment Reset on Failover Network",
+        "id": "84",
+        "x": 1081,
+        "y": 2701
+    },
+    {
+        "level": 7,
+        "label": "Vehicle Reset with Level 2 Charger Connected",
+        "id": "85",
+        "x": 1081,
+        "y": 2801
+    },
+    {
+        "level": 7,
+        "label": "Infotainment Reset Request Notification",
+        "id": "86",
+        "x": 1081,
+        "y": 2901
+    },
+    {
+        "level": 7,
+        "label": "Individual Steering Wheel Button Press",
+        "id": "87",
+        "x": 1081,
+        "y": 3001
+    },
+    {
+        "level": 7,
+        "label": "Vehicle Reset Request Notification",
+        "id": "88",
+        "x": 1081,
+        "y": 3101
+    },
+    {
+        "level": 7,
+        "label": "Individual Hazard Button Press",
+        "id": "89",
+        "x": 1081,
+        "y": 3201
+    },
+    {
+        "level": 7,
+        "label": "HV Disconnect Request",
+        "id": "90",
+        "x": 1081,
+        "y": 3301
+    },
+    {
+        "level": 7,
+        "label": "ECU Reset (0x11)",
+        "id": "91",
+        "x": 1081,
+        "y": 3401
+    },
+    {
+        "level": 7,
+        "label": "Routine Control (0x31)",
+        "id": "92",
+        "x": 1081,
+        "y": 3501
+    },
+    {
+        "level": 7,
+        "label": "Attempt Vehicle Reset in Drive, Reverse, Neutral, and Soft Park",
+        "id": "93",
+        "x": 1081,
+        "y": 3601
+    },
+    {
+        "level": 7,
+        "label": "Attempt Vehicle Reset in Drive, Reverse, and Neutral",
+        "id": "94",
+        "x": 1081,
+        "y": 3701
+    },
+    {
+        "level": 7,
+        "label": "Concurrent Vehicle Reset and Infotainment Reset Attempt",
+        "id": "95",
+        "x": 1081,
+        "y": 3801
+    },
+    {
+        "level": 7,
+        "label": "Lib_11007_Vehicle_Reset",
+        "id": "96",
+        "x": 1081,
+        "y": 3901
+    },
+    {
+        "level": 7,
+        "label": "Clear hazard switch press vehicle reset flag",
+        "id": "97",
+        "x": 1081,
+        "y": 4001
+    },
+    {
+        "level": 7,
+        "label": "Clear steering wheel scroll wheel press vehicle reset flag",
+        "id": "98",
+        "x": 1081,
+        "y": 4101
+    },
+    {
+        "level": 7,
+        "label": "Clear steering wheel scroll wheel press vehicle reset flag, button released",
+        "id": "99",
+        "x": 1081,
+        "y": 4201
+    },
+    {
+        "level": 7,
+        "label": "Debounce Hazard Switch, released",
+        "id": "100",
+        "x": 1081,
+        "y": 4301
+    },
+    {
+        "level": 7,
+        "label": "Distribute vehicle reset physical button press",
+        "id": "101",
+        "x": 1081,
+        "y": 4401
+    },
+    {
+        "level": 7,
+        "label": "Read LH steering wheel switch left press",
+        "id": "102",
+        "x": 1081,
+        "y": 4501
+    },
+    {
+        "level": 7,
+        "label": "Set hazard switch press vehicle reset flag",
+        "id": "103",
+        "x": 1081,
+        "y": 4601
+    },
+    {
+        "level": 7,
+        "label": "Set steering wheel scroll wheel press vehicle reset flag",
+        "id": "104",
+        "x": 1081,
+        "y": 4701
+    },
+    {
+        "level": 7,
+        "label": "Set vehicle reset request",
+        "id": "105",
+        "x": 1081,
+        "y": 4801
+    },
+    {
+        "level": 7,
+        "label": "Switch press vehicle reset flag time",
+        "id": "106",
+        "x": 1081,
+        "y": 4901
+    },
+    {
+        "level": 7,
+        "label": "Vehicle reset time",
+        "id": "107",
+        "x": 1081,
+        "y": 5001
+    },
+    {
+        "level": 7,
+        "label": "Short Button Press",
+        "id": "108",
+        "x": 1081,
+        "y": 5101
+    },
+    {
+        "level": 7,
+        "label": "TC_13006_Individual_Steering_Wheel_Button_Press",
+        "id": "109",
+        "x": 1081,
+        "y": 5201
+    },
+    {
+        "level": 7,
+        "label": "TC_13007_Individual Hazard Button Press",
+        "id": "110",
+        "x": 1081,
+        "y": 5301
+    },
+    {
+        "level": 7,
+        "label": "TC_13008_Short Button Press",
+        "id": "111",
+        "x": 1081,
+        "y": 5401
+    },
+    {
+        "level": 7,
+        "label": "Read LH steering wheel scroll wheel push",
+        "id": "112",
+        "x": 1081,
+        "y": 5501
+    },
+    {
+        "level": 7,
+        "label": "Clear LH steering wheel switch left press infotainment reset flag ",
+        "id": "113",
+        "x": 1081,
+        "y": 5601
+    },
+    {
+        "level": 7,
+        "label": "Clear LH steering wheel switch left press infotainment reset flag, button released",
+        "id": "114",
+        "x": 1081,
+        "y": 5701
+    },
+    {
+        "level": 7,
+        "label": "Clear RH steering wheel switch right press infotainment reset flag ",
+        "id": "115",
+        "x": 1081,
+        "y": 5801
+    },
+    {
+        "level": 7,
+        "label": "Clear RH steering wheel switch right press infotainment reset flag, button released",
+        "id": "116",
+        "x": 1081,
+        "y": 5901
+    },
+    {
+        "level": 7,
+        "label": "Distribute infotainment reset physical button press",
+        "id": "117",
+        "x": 1081,
+        "y": 6001
+    },
+    {
+        "level": 7,
+        "label": "Infotainment reset time",
+        "id": "118",
+        "x": 1081,
+        "y": 6101
+    },
+    {
+        "level": 7,
+        "label": "Read RH steering wheel switch right press",
+        "id": "119",
+        "x": 1081,
+        "y": 6201
+    },
+    {
+        "level": 7,
+        "label": "Set LH steering wheel switch left press infotainment reset flag ",
+        "id": "120",
+        "x": 1081,
+        "y": 6301
+    },
+    {
+        "level": 7,
+        "label": "Set RH steering wheel switch right press infotainment reset flag ",
+        "id": "121",
+        "x": 1081,
+        "y": 6401
+    },
+    {
+        "level": 7,
+        "label": "Set infotainment reset request",
+        "id": "122",
+        "x": 1081,
+        "y": 6501
+    },
+    {
+        "level": 7,
+        "label": "Switch press infotainment reset flag time",
+        "id": "123",
+        "x": 1081,
+        "y": 6601
+    },
+    {
+        "level": 7,
+        "label": "Attempt Infotainment Reset in Drive, Reverse, Neutral and Soft Park",
+        "id": "124",
+        "x": 1081,
+        "y": 6701
+    },
+    {
+        "level": 7,
+        "label": "Attempt Infotainment Reset in Drive, Reverse, and Neutral",
+        "id": "125",
+        "x": 1081,
+        "y": 6801
+    },
+    {
+        "level": 8,
+        "label": "Document Item",
+        "id": "126",
+        "x": 1261,
+        "y": 1
+    },
+    {
+        "level": 8,
+        "label": "Verification - HIL",
+        "id": "127",
+        "x": 1261,
+        "y": 101
+    },
+    {
+        "level": 8,
+        "label": "None",
+        "id": "128",
+        "x": 1261,
+        "y": 201
+    },
+    {
+        "level": 8,
+        "label": "Feature-level Functional Requirement",
+        "id": "129",
+        "x": 1261,
+        "y": 301
+    },
+    {
+        "level": 8,
+        "label": "Requirement [incl FuSa]",
+        "id": "130",
+        "x": 1261,
+        "y": 401
+    },
+    {
+        "level": 8,
+        "label": "Software Test Case - Vehicle",
+        "id": "131",
+        "x": 1261,
+        "y": 501
+    },
+    {
+        "level": 8,
+        "label": "Software Test Case - Component",
+        "id": "132",
+        "x": 1261,
+        "y": 601
+    },
+    {
+        "level": 9,
+        "label": "Exclusion of Services not defined in this specification",
+        "id": "133",
+        "x": 1441,
+        "y": 1
+    },
+    {
+        "level": 9,
+        "label": "ECU Reset",
+        "id": "134",
+        "x": 1441,
+        "y": 101
+    },
+    {
+        "level": 9,
+        "label": "TC_16145_ECU_Reset ",
+        "id": "135",
+        "x": 1441,
+        "y": 201
+    },
+    {
+        "level": 9,
+        "label": "TC_16146_Security_Access ",
+        "id": "136",
+        "x": 1441,
+        "y": 301
+    },
+    {
+        "level": 9,
+        "label": "None",
+        "id": "137",
+        "x": 1441,
+        "y": 401
+    },
+    {
+        "level": 9,
+        "label": "Tester Present",
+        "id": "138",
+        "x": 1441,
+        "y": 501
+    },
+    {
+        "level": 9,
+        "label": "TC_01_TesterPresent",
+        "id": "139",
+        "x": 1441,
+        "y": 601
+    },
+    {
+        "level": 9,
+        "label": "Inhibit Park Exit When Vehicle Reset In Progress",
+        "id": "140",
+        "x": 1441,
+        "y": 701
+    },
+    {
+        "level": 9,
+        "label": "Inhibit Park Exit, Vehicle Reset In Progress",
+        "id": "141",
+        "x": 1441,
+        "y": 801
+    },
+    {
+        "level": 9,
+        "label": "Reset Vehicle Reset In Progress Timer",
+        "id": "142",
+        "x": 1441,
+        "y": 901
+    },
+    {
+        "level": 9,
+        "label": "Start Vehicle Reset In Progress Timer",
+        "id": "143",
+        "x": 1441,
+        "y": 1001
+    },
+    {
+        "level": 9,
+        "label": "Verify Park Exit Inhibit While Vehicle Reset In Progress [R1T][R1S]",
+        "id": "144",
+        "x": 1441,
+        "y": 1101
+    },
+    {
+        "level": 9,
+        "label": "Transition to Passive State",
+        "id": "145",
+        "x": 1441,
+        "y": 1201
+    },
+    {
+        "level": 9,
+        "label": "Verify VDM Requests EPAS Cease Steering Assist Upon Start of OTA While in Park [R1][RPV]",
+        "id": "146",
+        "x": 1441,
+        "y": 1301
+    },
+    {
+        "level": 9,
+        "label": "Verify VDM Requests EPAS Cease Steering Assist Upon Transition to Standby While in Park [R1][RPV]",
+        "id": "147",
+        "x": 1441,
+        "y": 1401
+    },
+    {
+        "level": 9,
+        "label": "Verify VDM Requests EPAS Steering Assist When OTA is Complete While in Park [R1][RPV]",
+        "id": "148",
+        "x": 1441,
+        "y": 1501
+    },
+    {
+        "level": 9,
+        "label": "TC_01_ECUResetHardwithoutSecurityAcess",
+        "id": "149",
+        "x": 1441,
+        "y": 1601
+    },
+    {
+        "level": 9,
+        "label": "TC_03_ECUResetHardExt",
+        "id": "150",
+        "x": 1441,
+        "y": 1701
+    },
+    {
+        "level": 9,
+        "label": "TC_04_ECUResetSoftwithoutSecurityAcess",
+        "id": "151",
+        "x": 1441,
+        "y": 1801
+    },
+    {
+        "level": 9,
+        "label": "TC_06_ECUResetSoftExt",
+        "id": "152",
+        "x": 1441,
+        "y": 1901
+    },
+    {
+        "level": 9,
+        "label": "TC_15701_ECUReset_Hard_withoutSecurityAcess",
+        "id": "153",
+        "x": 1441,
+        "y": 2001
+    },
+    {
+        "level": 9,
+        "label": "TC_15702_ECUReset_Hard_Ext",
+        "id": "154",
+        "x": 1441,
+        "y": 2101
+    },
+    {
+        "level": 9,
+        "label": "Routine Control",
+        "id": "155",
+        "x": 1441,
+        "y": 2201
+    },
+    {
+        "level": 10,
+        "label": "None",
+        "id": "156",
+        "x": 1621,
+        "y": 1
+    },
+    {
+        "level": 10,
+        "label": "Document Item",
+        "id": "157",
+        "x": 1621,
+        "y": 101
+    },
+    {
+        "level": 10,
+        "label": "Requirement [incl FuSa]",
+        "id": "158",
+        "x": 1621,
+        "y": 201
+    },
+    {
+        "level": 10,
+        "label": "Software Test Case - Vehicle",
+        "id": "159",
+        "x": 1621,
+        "y": 301
+    },
+    {
+        "level": 10,
+        "label": "Software Test Case - Component",
+        "id": "160",
+        "x": 1621,
+        "y": 401
+    },
+    {
+        "level": 11,
+        "label": "None",
+        "id": "161",
+        "x": 1801,
+        "y": 1
+    },
+    {
+        "level": 11,
+        "label": "ECU Reset",
+        "id": "162",
+        "x": 1801,
+        "y": 101
+    },
+    {
+        "level": 11,
+        "label": "(TBD) Detect Vehicle Reset In Progress Check Malfunction",
+        "id": "163",
+        "x": 1801,
+        "y": 201
+    },
+    {
+        "level": 11,
+        "label": "Inhibit Park Exit, Vehicle Reset In Progress",
+        "id": "164",
+        "x": 1801,
+        "y": 301
+    },
+    {
+        "level": 11,
+        "label": "Reset Vehicle Reset In Progress Timer",
+        "id": "165",
+        "x": 1801,
+        "y": 401
+    },
+    {
+        "level": 11,
+        "label": "Start Vehicle Reset In Progress Timer",
+        "id": "166",
+        "x": 1801,
+        "y": 501
+    },
+    {
+        "level": 11,
+        "label": "Verify Park Exit Inhibit While Vehicle Reset In Progress [R1T][R1S]",
+        "id": "167",
+        "x": 1801,
+        "y": 601
+    },
+    {
+        "level": 11,
+        "label": "Verify Park Exit Inhibit While Vehicle Reset In Progress [RPV500/700/900]",
+        "id": "168",
+        "x": 1801,
+        "y": 701
+    },
+    {
+        "level": 11,
+        "label": "Verify VDM DOES NOT Request EPAS Cease Steering Assist Upon Transition to Standby While Not in Park. [R1][RPV]",
+        "id": "169",
+        "x": 1801,
+        "y": 801
+    },
+    {
+        "level": 11,
+        "label": "Verify VDM Requests EPAS Cease Steering Assist Upon Start of OTA While in Park [R1][RPV]",
+        "id": "170",
+        "x": 1801,
+        "y": 901
+    },
+    {
+        "level": 11,
+        "label": "Verify VDM Requests EPAS Cease Steering Assist Upon Transition to Standby While in Park [R1][RPV]",
+        "id": "171",
+        "x": 1801,
+        "y": 1001
+    },
+    {
+        "level": 12,
+        "label": "None",
+        "id": "172",
+        "x": 1981,
+        "y": 1
+    },
+    {
+        "level": 12,
+        "label": "Software Test Case - Vehicle",
+        "id": "173",
+        "x": 1981,
+        "y": 101
+    },
+    {
+        "level": 13,
+        "label": "None",
+        "id": "174",
+        "x": 2161,
+        "y": 1
+    },
+    {
+        "level": 13,
+        "label": "Verify Park Exit Inhibit While Vehicle Reset In Progress [RPV500/700/900]",
+        "id": "175",
+        "x": 2161,
+        "y": 101
+    },
+    {
+        "level": 14,
+        "label": "None",
+        "id": "176",
+        "x": 2341,
+        "y": 1
+    }
+]
