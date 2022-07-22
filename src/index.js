@@ -171,7 +171,7 @@ const App = (props) => {
           };
         if (obj[a.value.title.trim()]) {
           return {
-            fill: "rgb(61, 61, 138)", //节点背景色  三个规则判断颜色
+            fill: "rgb(52, 174, 235", //节点背景色  三个规则判断颜色
             stroke: "#B2BED5",
             radius: [2, 2, 2, 2],
           };
@@ -315,7 +315,7 @@ const App = (props) => {
           };
         if (obj[a.value.title.trim()]) {
           return {
-            fill: "rgb(61, 61, 138)", //节点背景色  三个规则判断颜色
+            fill: "rgb(52, 174, 235)", //节点背景色  三个规则判断颜色
             // stroke: "#B2BED5",
             radius: [2, 2, 2, 2],
             stroke: "#1890ff",
@@ -414,7 +414,7 @@ const App = (props) => {
                     console.log(arr, a.id, "node", curId);
 
                     return {
-                      fill: "rgb(61, 61, 138)", //节点背景色  三个规则判断颜色
+                      fill: "rgb(52, 174, 235)", //节点背景色  三个规则判断颜色
                       radius: [2, 2, 2, 2],
                       stroke: "red",
                       lineWidth: 3,
@@ -437,7 +437,7 @@ const App = (props) => {
                 } else {
                   if (obj[a.value.title.trim()]) {
                     return {
-                      fill: "rgb(61, 61, 138)", //节点背景色  三个规则判断颜色
+                      fill: "rgb(52, 174, 235", //节点背景色  三个规则判断颜色
                       stroke: "#B2BED5",
                       radius: [2, 2, 2, 2],
                     };
